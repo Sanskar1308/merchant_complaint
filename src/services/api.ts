@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from 'axios';
 import { useAuthStore } from '../stores/authStore';
-import { 
+import type { 
   ApiResponse, 
   PaginatedResponse, 
   Ticket, 
