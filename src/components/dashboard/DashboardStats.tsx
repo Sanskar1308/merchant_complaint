@@ -8,7 +8,7 @@ import {
   TrophyOutlined,
   SmileOutlined,
 } from '@ant-design/icons';
-import { DashboardStats as StatsType } from '../../types';
+import type { DashboardStats as StatsType } from '../../types';
 
 interface DashboardStatsProps {
   stats: StatsType;
